@@ -4,6 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lango.link.com.langolink.Create">
+    android:background="@drawable/log"
 
+    tools:context="lango.link.com.langolink.Create"
+
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/username_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/username_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text" />
+
+
+    <EditText
+        android:id="@+id/first_name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/password_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_text" />
+
+    <EditText
+        android:id="@+id/last_name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/first_name_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/first_name_edit_text" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/last_name_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/last_name_edit_text" />
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="66dp"
+        android:background="#7DDCD4"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
 </android.support.constraint.ConstraintLayout>
