@@ -1,4 +1,4 @@
-
+package sharedlibs;
 public class NetworkIO {
 
 	static void updateLocation(PrintWriter out, BufferedReader in, double lat, double lon){

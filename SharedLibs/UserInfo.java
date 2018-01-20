@@ -1,3 +1,5 @@
+package sharedlibs;
+
 public class UserInfo {
 
    String userName;
