@@ -9,6 +9,8 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.os.StrictMode;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -42,6 +44,9 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+
                 username = user_Name.getText().toString();
                 pass = password.getText().toString();
 
@@ -54,7 +59,7 @@ public class Login extends AppCompatActivity {
                     GlobalVars.out = new PrintWriter(kkSocket.getOutputStream(), true);
                     GlobalVars.in = new BufferedReader(new InputStreamReader(kkSocket.getInputStream()));
                 }catch(Exception e){
-
+                    Log.e("LangoLink", "exception", e);
                 }
                 if(( username.length() != 0) && ( pass.length() != 0) )
                 {
@@ -63,6 +68,7 @@ public class Login extends AppCompatActivity {
                         if(NetworkIO.sendLogin( GlobalVars.out, GlobalVars.in, username, pass))
                         {
                             // Valid User
+
                             launchMain();
                         }
                         else
@@ -101,7 +107,7 @@ public class Login extends AppCompatActivity {
     }
 
     private void launchMain() {
-        Intent intent = new Intent(Login.this, Main.class);
+        Intent intent = new Intent(Login.this, Locate.class);
         startActivity(intent);
     }
 

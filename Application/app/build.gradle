@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "lango.link.com.langolink"
-        minSdkVersion 25
+        minSdkVersion 24
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -15,7 +15,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+<<<<<<< HEAD
     } 
+=======
+    }
+    productFlavors {
+    }
+>>>>>>> 82b71f378d0e7078243032454df26a924008e7b9
 }
 
 dependencies {

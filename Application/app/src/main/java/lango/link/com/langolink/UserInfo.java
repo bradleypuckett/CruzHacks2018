@@ -8,7 +8,7 @@ public class UserInfo {
    String userName;
    String password;
    String firstName;
-   String lastName;
+   String primaryLang;
    String email;
    double lastLat;
    double lastLon;
@@ -20,7 +20,7 @@ public class UserInfo {
       this.userName = name;
       this.password = "";
       this.firstName = "";
-      this.lastName = "";
+      this.primaryLang = "";
       this.email = "";
       this.lastLat = -1;
       this.lastLon = -1;
@@ -55,7 +55,7 @@ public class UserInfo {
       result = result + "Username: " + userName + "\n";
       result = result + "Password: " + password + "\n";
       result = result + "FirstName: " + firstName + "\n";
-      result = result + "LastName: " + lastName + "\n";
+      result = result + "PrimaryLang: " + primaryLang + "\n";
       result = result + "Email: " + email + "\n";
       result = result + "Latitude: " + lastLat + "\n";
       result = result + "Longitude: " + lastLon + "\n";
