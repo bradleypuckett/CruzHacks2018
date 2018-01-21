@@ -50,6 +50,7 @@ public class Create extends AppCompatActivity {
         create_account.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 // Go to create
                 userString = username.getText().toString();
                 passString= password.getText().toString();

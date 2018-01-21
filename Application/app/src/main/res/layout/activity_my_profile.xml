@@ -12,69 +12,23 @@
 
     <ImageView
         android:id="@+id/my_profile_image"
-        android:layout_width="361dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="358dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
         android:cropToPadding="false"
-        app:layout_constraintBottom_toTopOf="@+id/my_profile_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/alert_light_frame" />
 
-    <TextView
-        android:id="@+id/my_profile_name"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:gravity="center"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:shadowColor="#505050"
-        android:shadowDx="5.0"
-        android:shadowDy="5.0"
-        android:shadowRadius="5.0"
-        android:text="@string/user_firstname"
-        android:textColor="@android:color/background_light"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_profile_image"
-        tools:text="Name" />
-
-    <TextView
-        android:id="@+id/my_profile_email"
-        android:layout_width="0dp"
-        android:layout_height="31dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:gravity="center"
-        android:maxLines="25"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:scrollbars="vertical"
-        android:shadowColor="#505050"
-        android:shadowDx="5.0"
-        android:shadowDy="5.0"
-        android:shadowRadius="5.0"
-        android:text="@string/user_email"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_profile_name"
-        tools:text="Email" />
-
 
     <Button
         android:id="@+id/edit_button"
         android:layout_width="206dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
         android:background="#7DDCD4"
         android:text="Edit Profile"
         android:textAllCaps="false"
@@ -82,137 +36,159 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/Primary_Lang_editText"
-        android:layout_width="380dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Primary Language Selection"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textColor="@color/colorAccent"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_profile_email" />
+        app:layout_constraintTop_toBottomOf="@+id/TarLinLayZ"
+        app:layout_constraintVertical_bias="0.0" />
 
 
     <LinearLayout
         android:id="@+id/PrimLinLayX"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="65dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Primary_Lang_editText"
+        app:layout_constraintStart_toStartOf="@+id/my_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/PrimaryLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/PrimLinLayY"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="65dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Primary_Lang_editText"
+        app:layout_constraintEnd_toEndOf="@+id/my_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/PrimaryLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/PrimLinLayZ"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="65dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toStartOf="@+id/PrimLinLayY"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/PrimLinLayX"
-        app:layout_constraintTop_toBottomOf="@+id/Primary_Lang_editText"
+        app:layout_constraintTop_toBottomOf="@+id/PrimaryLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
 
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="380dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Target Language Selection"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textColor="@color/colorAccent"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PrimLinLayZ" />
-
     <LinearLayout
         android:id="@+id/TarLinLayX"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/edit_button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="@+id/PrimLinLayX"
+        app:layout_constraintStart_toStartOf="@+id/TargetLang_textView"
+        app:layout_constraintTop_toBottomOf="@+id/TargetLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/TarLinLayY"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/edit_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="@+id/TargetLang_textView"
+        app:layout_constraintStart_toStartOf="@+id/PrimLinLayY"
+        app:layout_constraintTop_toBottomOf="@+id/TargetLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/TarLinLayZ"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/edit_button"
-        app:layout_constraintEnd_toStartOf="@+id/TarLinLayY"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/TarLinLayX"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="@+id/PrimLinLayZ"
+        app:layout_constraintStart_toStartOf="@+id/PrimLinLayZ"
+        app:layout_constraintTop_toBottomOf="@+id/TargetLang_textView"
         tools:background="@android:drawable/alert_light_frame">
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/TargetLang_textView"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Target Language Selection"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/PrimaryLang_textView"
+        app:layout_constraintStart_toStartOf="@+id/PrimaryLang_textView"
+        app:layout_constraintTop_toBottomOf="@+id/PrimLinLayZ" />
 
+    <TextView
+        android:id="@+id/PrimaryLang_textView"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Primary Language Selection"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/email_editText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_editText"
+        app:layout_constraintTop_toBottomOf="@+id/email_editText" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/name_editText"
+        app:layout_constraintStart_toStartOf="@+id/name_editText"
+        app:layout_constraintTop_toBottomOf="@+id/name_editText" />
+
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/my_profile_image"
+        app:layout_constraintStart_toStartOf="@+id/my_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_image" />
 
 
 </android.support.constraint.ConstraintLayout>

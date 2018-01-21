@@ -160,6 +160,7 @@ public class Test {
 
         case "GETFILE": NetworkIO.sendFile(outStream, inStream, strParts[1]);
                             break;
+	default: break;
       }
     }
     }

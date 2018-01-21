@@ -34,7 +34,9 @@
         <activity
             android:name=".Connections"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".MyProfile"></activity>
+        <activity
+            android:name=".MyProfile"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Locate"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
