@@ -21,7 +21,6 @@ public class GlobalVars {
     static HashSet<String> hSet = new HashSet<String>();
     static ArrayList<UserInfo> connections = new ArrayList<UserInfo>();
 
-    public static int set = 0;
 
     public static String temp_name;
     public static String temp_email;
