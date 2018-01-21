@@ -51,7 +51,7 @@ public class Test {
         newUser.password = loginParts[1];
         newUser.email = loginParts[2];
         newUser.firstName = loginParts[3];
-        newUser.lastName = loginParts[4];
+        newUser.primaryLang = loginParts[4];
 
         ctr.regUsers.add(newUser);
       }
@@ -89,7 +89,7 @@ public class Test {
                   int numLngs = findUser.languages.size();
 
                 outStream.println("RESPONSE " + findUser.userName + " " 
-                                + findUser.firstName + " " + findUser.lastName + " " + findUser.userPhotoName + " " + numLngs);
+                                + findUser.firstName + " " + findUser.primaryLang + " " + findUser.userPhotoName + " " + numLngs);
 
                 for(int i = 0; i < numLngs; i++){
                   outStream.println(findUser.languages.get(i)); 
