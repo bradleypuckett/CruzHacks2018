@@ -11,17 +11,26 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.content.pm.*;
+import android.support.v4.content.*;
+import com.google.android.gms.maps.*;
+import android.support.v4.app.ActivityCompat;
 
-public class Locate extends Activity implements LocationListener {
+import java.io.IOException;
+
+
+public class Locate extends Main implements LocationListener {
 
     private LocationManager locationManager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Intent intent = new Intent(Locate.this, Main.class);
+        startActivity(intent);
+        ActivityCompat.requestPermissions(this, new String[]{
+                android.Manifest.permission.ACCESS_FINE_LOCATION }, 1);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
@@ -31,11 +40,15 @@ public class Locate extends Activity implements LocationListener {
 
     @Override
     public void onLocationChanged(Location location) {
-
-        String msg = "New Latitude: " + location.getLatitude()
-                + "New Longitude: " + location.getLongitude();
-
-        Toast.makeText(getBaseContext(), msg, Toast.LENGTH_LONG).show();
+        GlobalVars.lastLongitude = location.getLongitude();
+        GlobalVars.lastLatitude = location.getLatitude();
+        try {
+            NetworkIO.updateLocation(GlobalVars.out, GlobalVars.in, GlobalVars.lastLatitude, GlobalVars.lastLongitude);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
