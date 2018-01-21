@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/serverhost_edit_text"
+        android:id="@+id/password_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
@@ -50,8 +50,8 @@
         android:singleLine="true"
         android:textColor="#FFFF00"
         android:textColorHint="#7DDCD4"
-        app:layout_constraintStart_toStartOf="@+id/serverhost_edit_text"
-        app:layout_constraintTop_toBottomOf="@+id/serverhost_edit_text" />
+        app:layout_constraintStart_toStartOf="@+id/password_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_text" />
 
     <EditText
         android:id="@+id/nativelang_edit_text"

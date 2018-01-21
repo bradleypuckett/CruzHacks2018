@@ -1,8 +1,10 @@
 package lango.link.com.langolink;
 
 import android.content.Intent;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -60,11 +62,15 @@ public class Create extends AppCompatActivity {
                 GlobalVars.ip = ipString;
                 GlobalVars.port = Integer.parseInt(portString);
 
+                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+
                 try {
                     kkSocket = new Socket(GlobalVars.ip, GlobalVars.port);
                     GlobalVars.out = new PrintWriter(kkSocket.getOutputStream(), true);
                     GlobalVars.in = new BufferedReader(new InputStreamReader(kkSocket.getInputStream()));
                 }catch(Exception e){
+                    Log.e("LangoLink", "exception", e);
 
                 }
                 // Validate account creation details
@@ -101,8 +107,8 @@ public class Create extends AppCompatActivity {
         nativelang = (EditText)findViewById(R.id.nativelang_edit_text);
         email = (EditText)findViewById(R.id.email_edit_text);
         create_account = (Button)findViewById(R.id.create_account_button);
-        inputip = (EditText)findViewById(R.id.ip_edit_text);
-        inputPort = (EditText)findViewById(R.id.port_edit_text);
+        inputip = (EditText)findViewById(R.id.ipcreate_edit_text);
+        inputPort = (EditText)findViewById(R.id.portcreate_edit_text);
     }
 
     private void launchMain() {

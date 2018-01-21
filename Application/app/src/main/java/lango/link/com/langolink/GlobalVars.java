@@ -13,5 +13,7 @@ public class GlobalVars {
     public static int port;
     public static PrintWriter out;
     public static BufferedReader in;
+    public static double lastLongitude;
+    public static double lastLatitude;
 
 }
