@@ -15,5 +15,8 @@ public class GlobalVars {
     public static BufferedReader in;
     public static double lastLongitude;
     public static double lastLatitude;
+    
+    HashSet<String> hSet = new HashSet<String>();
+    ArrayList<UserInfo> connections = new ArrayList<UserInfo>();
 
 }
