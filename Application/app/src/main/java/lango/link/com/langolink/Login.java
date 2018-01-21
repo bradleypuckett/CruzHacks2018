@@ -19,11 +19,9 @@ public class Login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_login);
 
         // Initialize all the buttons and boxes
-
         user_Name = (EditText)findViewById(R.id.username_edit_text);
         password = (EditText)findViewById(R.id.password_edit_text);
         login = (Button)findViewById(R.id.login_button);
