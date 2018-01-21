@@ -54,12 +54,12 @@
         app:layout_constraintTop_toBottomOf="@+id/serverhost_edit_text" />
 
     <EditText
-        android:id="@+id/last_name_edit_text"
+        android:id="@+id/nativelang_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:ems="10"
-        android:hint="Last Name"
+        android:hint="Native Language"
         android:inputType="textPersonName"
         android:singleLine="true"
         android:textColor="#FFFF00"
@@ -78,8 +78,8 @@
         android:singleLine="true"
         android:textColor="#FFFF00"
         android:textColorHint="#7DDCD4"
-        app:layout_constraintStart_toStartOf="@+id/last_name_edit_text"
-        app:layout_constraintTop_toBottomOf="@+id/last_name_edit_text" />
+        app:layout_constraintStart_toStartOf="@+id/nativelang_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/nativelang_edit_text" />
 
     <EditText
         android:id="@+id/portcreate_edit_text"

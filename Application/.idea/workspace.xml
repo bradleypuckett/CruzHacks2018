@@ -29,58 +29,228 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GlobalVars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/GlobalVars.java">
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="-11">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/UserInfo.java">
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/os/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="113">
+              <caret line="750" column="0" lean-forward="false" selection-start-line="750" selection-start-column="0" selection-end-line="750" selection-end-column="0" />
               <folding>
+                <element signature="e#0#31769#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#1034#1035#0" expanded="false" />
-                <element signature="e#1067#1068#0" expanded="false" />
+                <element signature="e#4519#4520#0" expanded="false" />
+                <element signature="e#4552#4553#0" expanded="false" />
+                <element signature="e#5003#5004#0" expanded="false" />
+                <element signature="e#5040#5041#0" expanded="false" />
+                <element signature="e#5218#5219#0" expanded="false" />
+                <element signature="e#5259#5260#0" expanded="false" />
+                <element signature="e#5605#5606#0" expanded="false" />
+                <element signature="e#5650#5651#0" expanded="false" />
+                <element signature="e#6442#6443#0" expanded="false" />
+                <element signature="e#6475#6476#0" expanded="false" />
+                <element signature="e#10650#10651#0" expanded="false" />
+                <element signature="e#10693#10694#0" expanded="false" />
+                <element signature="e#11006#11007#0" expanded="false" />
+                <element signature="e#11055#11056#0" expanded="false" />
+                <element signature="e#13251#13252#0" expanded="false" />
+                <element signature="e#13314#13315#0" expanded="false" />
+                <element signature="e#20585#20586#0" expanded="false" />
+                <element signature="e#20637#20638#0" expanded="false" />
+                <element signature="e#21480#21481#0" expanded="false" />
+                <element signature="e#21529#21530#0" expanded="false" />
+                <element signature="e#21886#21887#0" expanded="false" />
+                <element signature="e#21941#21942#0" expanded="false" />
+                <element signature="e#27042#27043#0" expanded="false" />
+                <element signature="e#27097#27098#0" expanded="false" />
+                <element signature="e#27933#27934#0" expanded="false" />
+                <element signature="e#27992#27993#0" expanded="false" />
+                <element signature="e#28453#28454#0" expanded="false" />
+                <element signature="e#28509#28510#0" expanded="false" />
+                <element signature="e#28690#28691#0" expanded="false" />
+                <element signature="e#28720#28721#0" expanded="false" />
+                <element signature="e#30428#30429#0" expanded="false" />
+                <element signature="e#30464#30465#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Login.java">
+      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="121">
+              <caret line="406" column="25" lean-forward="false" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19299#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2452#3337#0" expanded="false" />
+                <element signature="e#3336#3337#0" expanded="false" />
+                <element signature="e#4955#4956#0" expanded="false" />
+                <element signature="e#5007#5008#0" expanded="false" />
+                <element signature="e#7191#7192#0" expanded="false" />
+                <element signature="e#7246#7247#0" expanded="false" />
+                <element signature="e#7656#7657#0" expanded="false" />
+                <element signature="e#7711#7712#0" expanded="false" />
+                <element signature="e#16717#16718#0" expanded="false" />
+                <element signature="e#16757#16758#0" expanded="false" />
+                <element signature="e#16900#16901#0" expanded="false" />
+                <element signature="e#16942#16943#0" expanded="false" />
+                <element signature="e#18623#18624#0" expanded="false" />
+                <element signature="e#18676#18677#0" expanded="false" />
+                <element signature="e#19239#19240#0" expanded="false" />
+                <element signature="e#19295#19296#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Create.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Create.java">
+      <file leaf-file-name="ActivityThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/app/ActivityThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="249">
+              <caret line="6081" column="0" lean-forward="false" selection-start-line="6081" selection-start-column="0" selection-end-line="6081" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#264760#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5378#5379#0" expanded="false" />
+                <element signature="e#5404#5405#0" expanded="false" />
+                <element signature="e#8504#8517#0" expanded="false" />
+                <element signature="e#8653#8674#0" expanded="false" />
+                <element signature="e#10003#10037#0" expanded="false" />
+                <element signature="e#10138#10172#0" expanded="false" />
+                <element signature="e#10268#10290#0" expanded="false" />
+                <element signature="e#11426#11427#0" expanded="false" />
+                <element signature="e#11514#11515#0" expanded="false" />
+                <element signature="e#11678#11713#0" expanded="false" />
+                <element signature="e#11806#11833#0" expanded="false" />
+                <element signature="e#11925#11956#0" expanded="false" />
+                <element signature="e#12064#12101#0" expanded="false" />
+                <element signature="e#12212#12259#0" expanded="false" />
+                <element signature="e#20274#20275#0" expanded="false" />
+                <element signature="e#20343#20344#0" expanded="false" />
+                <element signature="e#32110#32111#0" expanded="false" />
+                <element signature="e#32168#32169#0" expanded="false" />
+                <element signature="e#33970#33971#0" expanded="false" />
+                <element signature="e#34031#34032#0" expanded="false" />
+                <element signature="e#34078#34079#0" expanded="false" />
+                <element signature="e#34130#34131#0" expanded="false" />
+                <element signature="e#34360#34361#0" expanded="false" />
+                <element signature="e#34409#34410#0" expanded="false" />
+                <element signature="e#36643#36644#0" expanded="false" />
+                <element signature="e#36698#36699#0" expanded="false" />
+                <element signature="e#38293#38294#0" expanded="false" />
+                <element signature="e#38351#38352#0" expanded="false" />
+                <element signature="e#47787#48137#0" expanded="false" />
+                <element signature="e#48136#48137#0" expanded="false" />
+                <element signature="e#49344#49345#0" expanded="false" />
+                <element signature="e#49407#49408#0" expanded="false" />
+                <element signature="e#49880#49881#0" expanded="false" />
+                <element signature="e#49935#49936#0" expanded="false" />
+                <element signature="e#52259#52260#0" expanded="false" />
+                <element signature="e#52325#52326#0" expanded="false" />
+                <element signature="e#78356#78357#0" expanded="false" />
+                <element signature="e#78401#78402#0" expanded="false" />
+                <element signature="e#80968#80969#0" expanded="false" />
+                <element signature="e#80993#80994#0" expanded="false" />
+                <element signature="e#87489#87490#0" expanded="false" />
+                <element signature="e#87555#87556#0" expanded="false" />
+                <element signature="e#87614#87615#0" expanded="false" />
+                <element signature="e#87647#87648#0" expanded="false" />
+                <element signature="e#87702#87703#0" expanded="false" />
+                <element signature="e#87741#87742#0" expanded="false" />
+                <element signature="e#87939#87940#0" expanded="false" />
+                <element signature="e#87983#87984#0" expanded="false" />
+                <element signature="e#88016#88017#0" expanded="false" />
+                <element signature="e#88046#88047#0" expanded="false" />
+                <element signature="e#88089#88090#0" expanded="false" />
+                <element signature="e#88131#88132#0" expanded="false" />
+                <element signature="e#88169#88170#0" expanded="false" />
+                <element signature="e#88221#88222#0" expanded="false" />
+                <element signature="e#108440#108441#0" expanded="false" />
+                <element signature="e#108494#108495#0" expanded="false" />
+                <element signature="e#108840#108852#0" expanded="false" />
+                <element signature="e#109035#109036#0" expanded="false" />
+                <element signature="e#109086#109087#0" expanded="false" />
+                <element signature="e#128340#128341#0" expanded="false" />
+                <element signature="e#128378#128379#0" expanded="false" />
+                <element signature="e#129830#129838#0" expanded="false" />
+                <element signature="e#130042#130043#0" expanded="false" />
+                <element signature="e#130094#130095#0" expanded="false" />
+                <element signature="e#195553#195574#0" expanded="false" />
+                <element signature="e#209358#209359#0" expanded="false" />
+                <element signature="e#209399#209400#0" expanded="false" />
+                <element signature="e#234780#234820#0" expanded="false" />
+                <element signature="e#257407#257557#0" expanded="false" />
+                <element signature="e#257556#257557#0" expanded="false" />
+                <element signature="e#258127#259136#0" expanded="false" />
+                <element signature="e#259135#259136#0" expanded="false" />
+                <element signature="e#262536#262537#0" expanded="false" />
+                <element signature="e#262591#262592#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_create.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
+      <file leaf-file-name="Looper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/os/Looper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10170#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2432#2440#0" expanded="false" />
+                <element signature="e#2964#2965#0" expanded="false" />
+                <element signature="e#2993#2994#0" expanded="false" />
+                <element signature="e#6590#6591#0" expanded="false" />
+                <element signature="e#6631#6632#0" expanded="false" />
+                <element signature="e#6891#6892#0" expanded="false" />
+                <element signature="e#6931#6932#0" expanded="false" />
+                <element signature="e#7193#7194#0" expanded="false" />
+                <element signature="e#7249#7250#0" expanded="false" />
+                <element signature="e#7716#7717#0" expanded="false" />
+                <element signature="e#7750#7751#0" expanded="false" />
+                <element signature="e#7815#7816#0" expanded="false" />
+                <element signature="e#7851#7852#0" expanded="false" />
+                <element signature="e#8551#8552#0" expanded="false" />
+                <element signature="e#8585#8586#0" expanded="false" />
+                <element signature="e#9180#9181#0" expanded="false" />
+                <element signature="e#9213#9214#0" expanded="false" />
+                <element signature="e#9366#9367#0" expanded="false" />
+                <element signature="e#9396#9397#0" expanded="false" />
+                <element signature="e#9550#9551#0" expanded="false" />
+                <element signature="e#9579#9580#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="84" column="46" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkIO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/NetworkIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-506">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <marker date="1516533377665" expanded="true" signature="3161:3432" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Locate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,49 +269,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_profile.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml">
-          <provider editor-type-id="android-designer2">
+      <file leaf-file-name="activity_create.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create.xml">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-681">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="84" column="46" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+              <folding>
+                <marker date="1516533755639" expanded="true" signature="3194:3748" ph="..." />
+                <marker date="1516533755639" expanded="true" signature="3764:4269" ph="..." />
+                <marker date="1516533755639" expanded="true" signature="4283:4928" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyProfile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/MyProfile.java">
+      <file leaf-file-name="Create.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Create.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="-1085">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1956,38 +2106,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="langolink" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2083,7 +2201,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516528584314" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516533755754" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2131,7 +2249,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516528584316" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516533755755" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2163,27 +2281,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2314,7 +2411,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516528584319" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516533755764" />
       </method>
     </configuration>
     <list size="1">
@@ -2357,13 +2454,13 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0743034" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25851393" sideWeight="0.49353796" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0743034" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0743034" sideWeight="0.50646204" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2377,10 +2474,11 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2417,24 +2515,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/NetworkIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="e#1215#1223#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1039#1040#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2478,6 +2565,275 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/GlobalVars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Create.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="100" column="71" lean-forward="false" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="22442" column="2" lean-forward="false" selection-start-line="22442" selection-start-column="2" selection-end-line="22442" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="761" column="0" lean-forward="false" selection-start-line="761" selection-start-column="0" selection-end-line="761" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33770#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#31215#31231#0" expanded="false" />
+            <element signature="e#31292#31310#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="406" column="25" lean-forward="false" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19299#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2452#3337#0" expanded="false" />
+            <element signature="e#3336#3337#0" expanded="false" />
+            <element signature="e#4955#4956#0" expanded="false" />
+            <element signature="e#5007#5008#0" expanded="false" />
+            <element signature="e#7191#7192#0" expanded="false" />
+            <element signature="e#7246#7247#0" expanded="false" />
+            <element signature="e#7656#7657#0" expanded="false" />
+            <element signature="e#7711#7712#0" expanded="false" />
+            <element signature="e#16717#16718#0" expanded="false" />
+            <element signature="e#16757#16758#0" expanded="false" />
+            <element signature="e#16900#16901#0" expanded="false" />
+            <element signature="e#16942#16943#0" expanded="false" />
+            <element signature="e#18623#18624#0" expanded="false" />
+            <element signature="e#18676#18677#0" expanded="false" />
+            <element signature="e#19239#19240#0" expanded="false" />
+            <element signature="e#19295#19296#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="6081" column="0" lean-forward="false" selection-start-line="6081" selection-start-column="0" selection-end-line="6081" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#264760#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5378#5379#0" expanded="false" />
+            <element signature="e#5404#5405#0" expanded="false" />
+            <element signature="e#8504#8517#0" expanded="false" />
+            <element signature="e#8653#8674#0" expanded="false" />
+            <element signature="e#10003#10037#0" expanded="false" />
+            <element signature="e#10138#10172#0" expanded="false" />
+            <element signature="e#10268#10290#0" expanded="false" />
+            <element signature="e#11426#11427#0" expanded="false" />
+            <element signature="e#11514#11515#0" expanded="false" />
+            <element signature="e#11678#11713#0" expanded="false" />
+            <element signature="e#11806#11833#0" expanded="false" />
+            <element signature="e#11925#11956#0" expanded="false" />
+            <element signature="e#12064#12101#0" expanded="false" />
+            <element signature="e#12212#12259#0" expanded="false" />
+            <element signature="e#20274#20275#0" expanded="false" />
+            <element signature="e#20343#20344#0" expanded="false" />
+            <element signature="e#32110#32111#0" expanded="false" />
+            <element signature="e#32168#32169#0" expanded="false" />
+            <element signature="e#33970#33971#0" expanded="false" />
+            <element signature="e#34031#34032#0" expanded="false" />
+            <element signature="e#34078#34079#0" expanded="false" />
+            <element signature="e#34130#34131#0" expanded="false" />
+            <element signature="e#34360#34361#0" expanded="false" />
+            <element signature="e#34409#34410#0" expanded="false" />
+            <element signature="e#36643#36644#0" expanded="false" />
+            <element signature="e#36698#36699#0" expanded="false" />
+            <element signature="e#38293#38294#0" expanded="false" />
+            <element signature="e#38351#38352#0" expanded="false" />
+            <element signature="e#47787#48137#0" expanded="false" />
+            <element signature="e#48136#48137#0" expanded="false" />
+            <element signature="e#49344#49345#0" expanded="false" />
+            <element signature="e#49407#49408#0" expanded="false" />
+            <element signature="e#49880#49881#0" expanded="false" />
+            <element signature="e#49935#49936#0" expanded="false" />
+            <element signature="e#52259#52260#0" expanded="false" />
+            <element signature="e#52325#52326#0" expanded="false" />
+            <element signature="e#78356#78357#0" expanded="false" />
+            <element signature="e#78401#78402#0" expanded="false" />
+            <element signature="e#80968#80969#0" expanded="false" />
+            <element signature="e#80993#80994#0" expanded="false" />
+            <element signature="e#87489#87490#0" expanded="false" />
+            <element signature="e#87555#87556#0" expanded="false" />
+            <element signature="e#87614#87615#0" expanded="false" />
+            <element signature="e#87647#87648#0" expanded="false" />
+            <element signature="e#87702#87703#0" expanded="false" />
+            <element signature="e#87741#87742#0" expanded="false" />
+            <element signature="e#87939#87940#0" expanded="false" />
+            <element signature="e#87983#87984#0" expanded="false" />
+            <element signature="e#88016#88017#0" expanded="false" />
+            <element signature="e#88046#88047#0" expanded="false" />
+            <element signature="e#88089#88090#0" expanded="false" />
+            <element signature="e#88131#88132#0" expanded="false" />
+            <element signature="e#88169#88170#0" expanded="false" />
+            <element signature="e#88221#88222#0" expanded="false" />
+            <element signature="e#108440#108441#0" expanded="false" />
+            <element signature="e#108494#108495#0" expanded="false" />
+            <element signature="e#108840#108852#0" expanded="false" />
+            <element signature="e#109035#109036#0" expanded="false" />
+            <element signature="e#109086#109087#0" expanded="false" />
+            <element signature="e#128340#128341#0" expanded="false" />
+            <element signature="e#128378#128379#0" expanded="false" />
+            <element signature="e#129830#129838#0" expanded="false" />
+            <element signature="e#130042#130043#0" expanded="false" />
+            <element signature="e#130094#130095#0" expanded="false" />
+            <element signature="e#195553#195574#0" expanded="false" />
+            <element signature="e#209358#209359#0" expanded="false" />
+            <element signature="e#209399#209400#0" expanded="false" />
+            <element signature="e#234780#234820#0" expanded="false" />
+            <element signature="e#257407#257557#0" expanded="false" />
+            <element signature="e#257556#257557#0" expanded="false" />
+            <element signature="e#258127#259136#0" expanded="false" />
+            <element signature="e#259135#259136#0" expanded="false" />
+            <element signature="e#262536#262537#0" expanded="false" />
+            <element signature="e#262591#262592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10170#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2432#2440#0" expanded="false" />
+            <element signature="e#2964#2965#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#6590#6591#0" expanded="false" />
+            <element signature="e#6631#6632#0" expanded="false" />
+            <element signature="e#6891#6892#0" expanded="false" />
+            <element signature="e#6931#6932#0" expanded="false" />
+            <element signature="e#7193#7194#0" expanded="false" />
+            <element signature="e#7249#7250#0" expanded="false" />
+            <element signature="e#7716#7717#0" expanded="false" />
+            <element signature="e#7750#7751#0" expanded="false" />
+            <element signature="e#7815#7816#0" expanded="false" />
+            <element signature="e#7851#7852#0" expanded="false" />
+            <element signature="e#8551#8552#0" expanded="false" />
+            <element signature="e#8585#8586#0" expanded="false" />
+            <element signature="e#9180#9181#0" expanded="false" />
+            <element signature="e#9213#9214#0" expanded="false" />
+            <element signature="e#9366#9367#0" expanded="false" />
+            <element signature="e#9396#9397#0" expanded="false" />
+            <element signature="e#9550#9551#0" expanded="false" />
+            <element signature="e#9579#9580#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="750" column="0" lean-forward="false" selection-start-line="750" selection-start-column="0" selection-end-line="750" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31769#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4519#4520#0" expanded="false" />
+            <element signature="e#4552#4553#0" expanded="false" />
+            <element signature="e#5003#5004#0" expanded="false" />
+            <element signature="e#5040#5041#0" expanded="false" />
+            <element signature="e#5218#5219#0" expanded="false" />
+            <element signature="e#5259#5260#0" expanded="false" />
+            <element signature="e#5605#5606#0" expanded="false" />
+            <element signature="e#5650#5651#0" expanded="false" />
+            <element signature="e#6442#6443#0" expanded="false" />
+            <element signature="e#6475#6476#0" expanded="false" />
+            <element signature="e#10650#10651#0" expanded="false" />
+            <element signature="e#10693#10694#0" expanded="false" />
+            <element signature="e#11006#11007#0" expanded="false" />
+            <element signature="e#11055#11056#0" expanded="false" />
+            <element signature="e#13251#13252#0" expanded="false" />
+            <element signature="e#13314#13315#0" expanded="false" />
+            <element signature="e#20585#20586#0" expanded="false" />
+            <element signature="e#20637#20638#0" expanded="false" />
+            <element signature="e#21480#21481#0" expanded="false" />
+            <element signature="e#21529#21530#0" expanded="false" />
+            <element signature="e#21886#21887#0" expanded="false" />
+            <element signature="e#21941#21942#0" expanded="false" />
+            <element signature="e#27042#27043#0" expanded="false" />
+            <element signature="e#27097#27098#0" expanded="false" />
+            <element signature="e#27933#27934#0" expanded="false" />
+            <element signature="e#27992#27993#0" expanded="false" />
+            <element signature="e#28453#28454#0" expanded="false" />
+            <element signature="e#28509#28510#0" expanded="false" />
+            <element signature="e#28690#28691#0" expanded="false" />
+            <element signature="e#28720#28721#0" expanded="false" />
+            <element signature="e#30428#30429#0" expanded="false" />
+            <element signature="e#30464#30465#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/NetworkIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1516533377665" expanded="true" signature="3161:3432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2494,16 +2850,99 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="84" column="46" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+        <state relative-caret-position="1035">
+          <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding>
+            <marker date="1516533755639" expanded="true" signature="3194:3748" ph="..." />
+            <marker date="1516533755639" expanded="true" signature="3764:4269" ph="..." />
+            <marker date="1516533755639" expanded="true" signature="4283:4928" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/NetworkIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1516533377665" expanded="true" signature="3161:3432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1039#1040#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/MyProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="39" column="72" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="39" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="-11">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2512,14 +2951,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="84" column="46" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding>
+            <marker date="1516533755639" expanded="true" signature="3194:3748" ph="..." />
+            <marker date="1516533755639" expanded="true" signature="3764:4269" ph="..." />
+            <marker date="1516533755639" expanded="true" signature="4283:4928" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Locate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lango/link/com/langolink/Create.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        <state relative-caret-position="-1085">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
