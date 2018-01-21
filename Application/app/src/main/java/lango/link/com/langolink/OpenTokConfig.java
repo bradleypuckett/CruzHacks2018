@@ -9,9 +9,9 @@ public class OpenTokConfig {
     // Replace with your OpenTok API key
     public static final String API_KEY = "46043292";
     // Replace with a generated Session ID
-    public static final String SESSION_ID = "session";
+    public static final String SESSION_ID = GlobalVars.session;
     // Replace with a generated token (from the dashboard or using an OpenTok server SDK)
-    public static final String TOKEN = "token";
+    public static final String TOKEN = GlobalVars.token;
 
     /*                           ***** OPTIONAL *****
      If you have set up a server to provide session information replace the null value
