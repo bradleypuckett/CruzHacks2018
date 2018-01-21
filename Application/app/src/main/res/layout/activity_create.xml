@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/log"
 
+
     tools:context="lango.link.com.langolink.Create"
 
     tools:layout_editor_absoluteY="25dp">
