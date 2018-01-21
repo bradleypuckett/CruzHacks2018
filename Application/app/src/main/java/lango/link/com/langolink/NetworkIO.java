@@ -1,8 +1,10 @@
-
+package lango.link.com.langolink;
 import java.util.*;
 import java.io.*;
 import java.net.*;
 import java.nio.file.*;
+
+import lango.link.com.langolink.UserInfo;
 
 public class NetworkIO {
 	int waitingCall;
@@ -25,7 +27,7 @@ public class NetworkIO {
 	}
 
 	public static boolean createProfile(PrintWriter out, BufferedReader in, String userName, String password, String email,
-		                                                                    String firstName, String lastName) throws IOException{
+										String firstName, String lastName) throws IOException{
 		out.println("PROFILE " + userName + " " + password + " " + email + " " + firstName + " " + lastName);
 		String response = in.readLine();
 		System.out.println("Got back: " + response);
@@ -82,8 +84,8 @@ public class NetworkIO {
 			System.out.println("Got byte: " + fileArr[f]);
 		}
 
-    	fos.write(fileArr);
-	    fos.close();
+		fos.write(fileArr);
+		fos.close();
 	}
 
 	public static void sendFile(PrintWriter out, BufferedReader in, String localFileName) throws IOException{
@@ -91,7 +93,7 @@ public class NetworkIO {
 			triggerNotification();
 		}
 		Path path = Paths.get(localFileName);
-	    long fLength = Files.size(path);
+		long fLength = Files.size(path);
 		byte[] data = Files.readAllBytes(path);
 
 		out.println(localFileName + " " + fLength);
@@ -103,9 +105,9 @@ public class NetworkIO {
 
 	}
 
-	public static UserInfo getUserProfile(PrintWriter out, BufferedReader in, String userName){
+	public static lango.link.com.langolink.UserInfo getUserProfile(PrintWriter out, BufferedReader in, String userName){
 		if(checkCallsWaiting(out, in)){
-			
+
 		}
 		UserInfo result = new UserInfo(userName);
 
@@ -125,7 +127,7 @@ public class NetworkIO {
 			}
 		}
 		catch(Exception e){
-	        e.printStackTrace(System.out);
+			e.printStackTrace(System.out);
 		}
 		return result;
 	}
@@ -139,19 +141,19 @@ public class NetworkIO {
 	}
 
 	public static void updatePrimaryLang(PrintWriter out, BufferedReader in, String data){
-		out.println("UPDATE_LANG " + userName);
+		out.println("UPDATE_LANG " + data);
 	}
 
 	public static void updateImage(PrintWriter out, BufferedReader in, String data){
-		out.println("UPDATE_IMAGE " + userName);
+		out.println("UPDATE_IMAGE " + data);
 	}
 
 	public static void updateName(PrintWriter out, BufferedReader in, String data){
-		out.println("UPDATE_NAME " + userName);
+		out.println("UPDATE_NAME " + data);
 	}
 
 	public static void updateEmail(PrintWriter out, BufferedReader in, String data){
-		out.println("UPDATE_EMAIL " + userName);
+		out.println("UPDATE_EMAIL " + data);
 	}
 
 	public static boolean checkCallsWaiting(PrintWriter out, BufferedReader in){
