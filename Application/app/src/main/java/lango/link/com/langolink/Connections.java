@@ -17,15 +17,22 @@ public class Connections extends AppCompatActivity{
         setContentView(R.layout.activity_connections);
         ListView connections = (ListView) findViewById(R.id.connectpeople);
         // Defined Array values to show in ListView
-        String[] values = new String[] { "Android List View",
-                "Adapter implementation",
-                "Simple List View In Android",
-                "Create List View Android",
-                "Android Example",
-                "List View Source Code",
-                "List View Array Adapter",
-                "Android Example List View"
-        };
+        
+        String[] values = new String[GlobalVars.connections.size()];
+        for(int i = 0; i < values.length(); i++){
+            values[i] = (GlobalVars.connections.get(i)).userName;
+        }
+        
+        
+//         String[] values = new String[] { "Android List View",
+//                 "Adapter implementation",
+//                 "Simple List View In Android",
+//                 "Create List View Android",
+//                 "Android Example",
+//                 "List View Source Code",
+//                 "List View Array Adapter",
+//                 "Android Example List View"
+//         };
 
         // Define a new Adapter
         // First parameter - Context
