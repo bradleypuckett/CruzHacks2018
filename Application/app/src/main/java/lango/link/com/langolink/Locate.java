@@ -45,10 +45,10 @@ public class Locate extends Main implements LocationListener {
         try {
             ArrayList<String> userList = NetworkIO.updateLocation(GlobalVars.out, GlobalVars.in, GlobalVars.lastLatitude, GlobalVars.lastLongitude);
             for(String s : userList){
-                if( !hSet.contains(s)){
-                    hSet.add(s);
+                if( !((GlobalVars.hSet).contains(s))){
+                    GlobalVars.hSet.add(s);
                     UserInfo newUser = getUserProfile(out, in, s);
-                    connections.add(newUser);
+                    GlobalVars.connections.add(newUser);
                 }
             }
         } catch (IOException e) {
