@@ -30,6 +30,9 @@
         <activity
             android:name=".Profile"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Connections"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".MyProfile"></activity>
     </application>
 

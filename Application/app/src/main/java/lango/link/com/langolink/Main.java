@@ -25,8 +25,7 @@ public class Main extends AppCompatActivity {
         connections.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Go to create
-            //    launchConnections();
+              launchConnections();
             }
         });
 
@@ -41,12 +40,12 @@ public class Main extends AppCompatActivity {
         });
 
     }
-/*
+
     private void launchConnections() {
-        Intent intent = new Intent(Main.this, MyProfile.class);
+        Intent intent = new Intent(Main.this, Connections.class);
         startActivity(intent);
     }
-    */
+
     private void launchMyProfile() {
         Intent intent = new Intent(Main.this, MyProfile.class);
         startActivity(intent);
