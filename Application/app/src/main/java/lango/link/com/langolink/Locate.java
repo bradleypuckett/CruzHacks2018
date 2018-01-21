@@ -48,7 +48,7 @@ public class Locate extends Main implements LocationListener {
             for(String s : userList){
                 if( !((GlobalVars.hSet).contains(s))){
                     GlobalVars.hSet.add(s);
-                    UserInfo newUser = getUserProfile(GlobalVars.out, GlobalVars.in, s);
+                    UserInfo newUser = NetworkIO.getUserProfile(GlobalVars.out, GlobalVars.in, s);
                     GlobalVars.connections.add(newUser);
                 }
             }
