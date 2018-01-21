@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.*;
 import android.widget.Toast;
 import android.view.*;
+import java.util.*;
 
 public class Connections extends AppCompatActivity{
     @Override
@@ -19,7 +20,7 @@ public class Connections extends AppCompatActivity{
         // Defined Array values to show in ListView
         
         String[] values = new String[GlobalVars.connections.size()];
-        for(int i = 0; i < values.length(); i++){
+        for(int i = 0; i < values.length; i++){
             values[i] = (GlobalVars.connections.get(i)).userName;
         }
         
