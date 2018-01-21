@@ -15,6 +15,7 @@ import android.content.pm.*;
 import android.support.v4.content.*;
 import com.google.android.gms.maps.*;
 import android.support.v4.app.ActivityCompat;
+import java.util.*;
 
 import java.io.IOException;
 
@@ -47,7 +48,7 @@ public class Locate extends Main implements LocationListener {
             for(String s : userList){
                 if( !((GlobalVars.hSet).contains(s))){
                     GlobalVars.hSet.add(s);
-                    UserInfo newUser = getUserProfile(out, in, s);
+                    UserInfo newUser = getUserProfile(GlobalVars.out, GlobalVars.in, s);
                     GlobalVars.connections.add(newUser);
                 }
             }

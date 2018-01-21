@@ -2,6 +2,7 @@ package lango.link.com.langolink;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
+import java.util.*;
 
 /**
  * Declares variables for connecting to host server
@@ -16,7 +17,7 @@ public class GlobalVars {
     public static double lastLongitude;
     public static double lastLatitude;
     
-    HashSet<String> hSet = new HashSet<String>();
-    ArrayList<UserInfo> connections = new ArrayList<UserInfo>();
+    static HashSet<String> hSet = new HashSet<String>();
+    static ArrayList<UserInfo> connections = new ArrayList<UserInfo>();
 
 }
