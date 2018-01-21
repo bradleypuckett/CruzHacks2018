@@ -81,6 +81,35 @@
         app:layout_constraintStart_toStartOf="@+id/last_name_edit_text"
         app:layout_constraintTop_toBottomOf="@+id/last_name_edit_text" />
 
+    <EditText
+        android:id="@+id/portcreate_edit_text"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="332dp"
+        android:ems="10"
+        android:hint="Port"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/username_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text" />
+
+    <EditText
+        android:id="@+id/ipcreate_edit_text"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:ems="10"
+        android:hint="IP"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/username_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text" />
+
     <Button
         android:id="@+id/create_account_button"
         android:layout_width="206dp"
