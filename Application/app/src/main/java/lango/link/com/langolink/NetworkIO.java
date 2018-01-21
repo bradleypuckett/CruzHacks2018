@@ -27,8 +27,8 @@ public class NetworkIO {
 	}
 
 	public static boolean createProfile(PrintWriter out, BufferedReader in, String userName, String password, String email,
-										String firstName, String lastName) throws IOException{
-		out.println("PROFILE " + userName + " " + password + " " + email + " " + firstName + " " + lastName);
+										String firstName, String primaryLang) throws IOException{
+		out.println("PROFILE " + userName + " " + password + " " + email + " " + firstName + " " + primaryLang);
 		String response = in.readLine();
 		System.out.println("Got back: " + response);
 		if(response.compareTo("SUCCESS") == 0){
@@ -118,7 +118,7 @@ public class NetworkIO {
 			assert(responseArr[0].compareTo("RESPONSE") == 0);
 
 			result.firstName = responseArr[2];
-			result.lastName = responseArr[3];
+			result.primaryLang = responseArr[3];
 			result.userPhotoName = responseArr[4];
 
 			int numLangs = Integer.parseInt(responseArr[5]);
