@@ -11,6 +11,35 @@
     tools:layout_editor_absoluteY="25dp">
 
     <EditText
+        android:id="@+id/port_edit_text"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="Port"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/username_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text" />
+
+    <EditText
+        android:id="@+id/ip_edit_text"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="IP"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textColor="#FFFF00"
+        android:textColorHint="#7DDCD4"
+        app:layout_constraintStart_toStartOf="@+id/username_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text" />
+
+    <EditText
         android:id="@+id/username_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,21 +71,21 @@
         android:id="@+id/login_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="132dp"
         android:background="#7DDCD4"
         android:text="Login"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/password_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/username_edit_text"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/create_account_button" />
 
     <Button
         android:id="@+id/create_account_button"
-        android:layout_width="206dp"
-        android:layout_height="wrap_content"
+        android:layout_width="216dp"
+        android:layout_height="47dp"
         android:layout_marginBottom="65dp"
         android:layout_marginTop="66dp"
         android:background="#7DDCD4"
@@ -67,6 +96,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_button"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text"
+        app:layout_constraintVertical_bias="1.0" />
 </android.support.constraint.ConstraintLayout>
