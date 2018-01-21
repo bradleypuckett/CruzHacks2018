@@ -30,8 +30,7 @@ public class Locate extends Main implements LocationListener {
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(Locate.this, Main.class);
         startActivity(intent);
-        ActivityCompat.requestPermissions(this, new String[]{
-                android.Manifest.permission.ACCESS_FINE_LOCATION }, 1);
+
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
