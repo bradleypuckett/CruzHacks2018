@@ -31,12 +31,19 @@ public class Test {
         UserInfo userVerify = null;
 
         for(UserInfo ui : ctr.regUsers){
+          System.out.println("Comparing " + ui.userName + " " + loginParts[1]);
           if((ui.userName).compareTo(loginParts[1]) == 0){
             userVerify = ui;
+            System.out.println("They are same");
+            break;
           }
         }
 
-        if((userVerify.password).compareTo(loginParts[2]) == 0){
+        userVerify.bRead = inStream;
+        userVerify.pWrite = outStream;
+
+	System.out.println("Comparing " + userVerify.password + " " + loginParts[2]);
+        if((userVerify != null) &&  ((userVerify.password).compareTo(loginParts[2]) == 0)){
           System.out.println("Login success");
           outStream.println("SUCCESS");
         }
@@ -46,14 +53,18 @@ public class Test {
         }
       }
       else if(loginParts[0].compareTo("PROFILE") == 0){
-        System.out.println("Got SETUP message");
+        System.out.println("Got PROFILE message");
         UserInfo newUser = new UserInfo(loginParts[1]);
         newUser.password = loginParts[1];
         newUser.email = loginParts[2];
         newUser.firstName = loginParts[3];
         newUser.primaryLang = loginParts[4];
 
+        newUser.bRead = inStream;
+        newUser.pWrite = outStream;
+
         ctr.regUsers.add(newUser);
+        outStream.println("SUCCESS");
       }
 
     // Get pointer to UserInfo object using username
@@ -64,8 +75,6 @@ public class Test {
           currentUser = u;
         }
       }
-
-
 
     while(1 == 1){
 
@@ -116,8 +125,42 @@ public class Test {
                 }
                 break;
 
+        case "UPDATE_TARGETS": int nLangs = Integer.parseInt(strParts[1]);
+                               ArrayList<String> newLangs = new ArrayList<String>();
+                               for(int i = 0; i < nLangs; i++){
+                                 newLangs.add(inStream.readLine());
+                               }
+                               currentUser.languages = newLangs;
+
+        case "CALL": UserInfo targetUser = null;
+		    for(UserInfo ui : ctr.regUsers){
+                      if((ui.userName).compareTo(strParts[1]) == 0){
+                        targetUser = ui;
+                        break;
+                      }
+                    }
+                    // Get call token from toto server
+                    Socket newSock = new Socket("127.0.0.1", 55255);
+                    outStream.println("REQUEST");
+                    int sessionID = Integer.parseInt(inStream.readLine());
+                    (targetUser.pWrite).println("CALL_WAIT " + sessionID);
+
+
+	      case "UPDATE_LANG": currentUser.primaryLang = strParts[1];
+                            break;
+
+	      case "UPDATE_IMAGE": currentUser.userPhotoName = strParts[1];
+                            break;
+
+	      case "UPDATE_NAME": currentUser.firstName = strParts[1];
+                            break;
+
+	      case "UPDATE_EMAIL": currentUser.email = strParts[1];
+                            break;
+
         case "GETFILE": NetworkIO.sendFile(outStream, inStream, strParts[1]);
-                break;
+                            break;
+	default: break;
       }
     }
     }
@@ -136,26 +179,26 @@ public class Test {
 
     UserInfo u1 = new UserInfo("Test1");
     u1.password = "pass";
-    u1.lastLat = 33.0;
-    u1.lastLon = 33.0;
+    u1.lastLat = 36.994379;
+    u1.lastLon = -122.064858;
     ctr.regUsers.add(u1);
 
     UserInfo u2 = new UserInfo("Test2");
     u2.password = "pass2";
-    u2.lastLat = 21.33221;
-    u2.lastLon = 54.22222;
+    u2.lastLat = 36.9964194;
+    u2.lastLon = -122.0656628;
     ctr.regUsers.add(u2);
       
     UserInfo u3 = new UserInfo("Test3");
     u3.password = "pass3";
-    u3.lastLat = 21.33221;
-    u3.lastLon = 54.22222;
+    u3.lastLat = 36.9959005;
+    u3.lastLon = -122.0647307;
     ctr.regUsers.add(u3);
       
     UserInfo u4 = new UserInfo("Test4");
     u4.password = "pass4";
-    u4.lastLat = 21.33221;
-    u4.lastLon = 54.22222;
+    u4.lastLat = 37.0000113;
+    u4.lastLon = -122.0563099;
     ctr.regUsers.add(u4);
 
     ServerSocket serverSocket = null;

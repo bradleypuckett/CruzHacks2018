@@ -14,6 +14,8 @@ public class UserInfo {
    long lastTimeUpdate;
    String userPhotoName;
    ArrayList<String> languages;
+   BufferedReader bRead;
+   PrintWriter pWrite;
 
    public UserInfo(String name) {
       this.userName = name;
@@ -25,6 +27,8 @@ public class UserInfo {
       this.lastLon = -1;
       this.lastTimeUpdate = -1;
       this.userPhotoName = "";
+      this.bRead = null;
+      this.pWrite = null;
       languages = new ArrayList<String>();
    }
 
