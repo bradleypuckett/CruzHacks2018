@@ -128,12 +128,12 @@ public class Test {
         case "UPDATE_TARGETS": int nLangs = Integer.parseInt(strParts[1]);
                                ArrayList<String> newLangs = new ArrayList<String>();
                                for(int i = 0; i < nLangs; i++){
-                                 newLangs.add(inStream.readLine())
+                                 newLangs.add(inStream.readLine());
                                }
                                currentUser.languages = newLangs;
 
-        case "CALL": String targetUser;
-                    for(UserInfo ui : ctr.regUsers){
+        case "CALL": UserInfo targetUser = null;
+		    for(UserInfo ui : ctr.regUsers){
                       if((ui.userName).compareTo(strParts[1]) == 0){
                         targetUser = ui;
                         break;
@@ -142,8 +142,8 @@ public class Test {
                     // Get call token from toto server
                     Socket newSock = new Socket("127.0.0.1", 55255);
                     outStream.println("REQUEST");
-                    int sessionID = Integer.parseInt(inStream.readLine())
-                    targetUser.pWrite.println("CALL_WAIT " + sessionID);
+                    int sessionID = Integer.parseInt(inStream.readLine());
+                    (targetUser.pWrite).println("CALL_WAIT " + sessionID);
 
 
 	      case "UPDATE_LANG": currentUser.primaryLang = strParts[1];
@@ -184,20 +184,20 @@ public class Test {
 
     UserInfo u2 = new UserInfo("Test2");
     u2.password = "pass2";
-    u2.lastLat = 21.33221;
-    u2.lastLon = 54.22222;
+    u2.lastLat = 36.9964194;
+    u2.lastLon = -122.0656628;
     ctr.regUsers.add(u2);
       
     UserInfo u3 = new UserInfo("Test3");
     u3.password = "pass3";
-    u3.lastLat = 21.33221;
-    u3.lastLon = 54.22222;
+    u3.lastLat = 36.9959005;
+    u3.lastLon = -122.0647307;
     ctr.regUsers.add(u3);
       
     UserInfo u4 = new UserInfo("Test4");
     u4.password = "pass4";
-    u4.lastLat = 21.33221;
-    u4.lastLon = 54.22222;
+    u4.lastLat = 37.0000113;
+    u4.lastLon = -122.0563099;
     ctr.regUsers.add(u4);
 
     ServerSocket serverSocket = null;
