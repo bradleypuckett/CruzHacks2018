@@ -2,6 +2,7 @@ package lango.link.com.langolink;
 
 import android.content.Intent;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +39,8 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         init();
+        ActivityCompat.requestPermissions(this, new String[]{
+                android.Manifest.permission.ACCESS_FINE_LOCATION }, 1);
 
         // Executes if user clicks login
         login.setOnClickListener(new View.OnClickListener() {
