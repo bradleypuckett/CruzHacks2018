@@ -8,4 +8,11 @@
 
     <string name="setting">Settings</string>
     <string name="cancel">Cancel</string>
+    <string name="user_firstname">Firstname</string>
+    <string name="user_email">email@email.com</string>
+    <string name="lang1">lang1</string>
+    <string name="lang2">lang2</string>
+    <string name="native_language">nativelang</string>
+    <string name="online_status">Status</string>
+
 </resources>

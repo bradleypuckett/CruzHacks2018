@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.PrintWriter;
 
 /**
- * Created by MilkhaisHaile on 1/20/18.
+ * Declares variables for connecting to host server
  */
 
 public class GlobalVars {

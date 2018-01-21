@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
@@ -21,8 +22,6 @@ public class Login extends AppCompatActivity {
     private EditText password;
     private Button login;
     private Button create_account;
-
-
     private String username;
     private String pass;
 
@@ -53,9 +52,16 @@ public class Login extends AppCompatActivity {
 
                 if(( username.length() != 0) && ( pass.length() != 0) ){
                     // Validate accounts
-                    //if( sendLogin( GlobalVars.out, GlobalVars.in, , )
-
-                    launchMain();
+                    try {
+                        if(NetworkIO.sendLogin( GlobalVars.out, GlobalVars.in, username, pass)
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    } {
+                        launchMain();
+                    }
+                    else{
+                        Toast.makeText(getBaseContext(), "Username or password invalid.", Toast.LENGTH_LONG).show();
+                    }
                 }
                 else{
                     Toast.makeText(getBaseContext(), "Please enter a valid username and password." , Toast.LENGTH_LONG).show();
