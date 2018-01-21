@@ -48,14 +48,6 @@ public class MyProfile extends AppCompatActivity {
         editProfile_button = (Button)findViewById(R.id.edit_button);
 
         init();
-        if (GlobalVars.set == 0){
-            GlobalVars.temp_name = "Milky";
-            GlobalVars.temp_email = "mdhaile@ucsc.edu";
-            GlobalVars.temp_prim_lang = "Amharic";
-            GlobalVars.temp_targetL.add("English");
-            GlobalVars.temp_targetL.add("French");
-        }
-
 
         // Set name
         name_editText.setText(GlobalVars.temp_name);
@@ -124,7 +116,6 @@ public class MyProfile extends AppCompatActivity {
                         GlobalVars.temp_targetL.add(mainLanguages[i]);
                     }
                 }
-                GlobalVars.set = 1;
 
                 launchMain();
 

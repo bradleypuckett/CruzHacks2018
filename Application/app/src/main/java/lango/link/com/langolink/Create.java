@@ -82,6 +82,8 @@ public class Create extends AppCompatActivity {
                         if(NetworkIO.createProfile( GlobalVars.out, GlobalVars.in, userString, passString, emailString, firstString, langString))
                         {
                             // Valid User
+                            GlobalVars.temp_name = "firstString";
+                            GlobalVars.temp_email = "emailString";
                             launchMain();
                         }
                         else
