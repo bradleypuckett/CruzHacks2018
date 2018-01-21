@@ -157,13 +157,17 @@ public class NetworkIO {
 	}
 
 	public static boolean checkCallsWaiting(PrintWriter out, BufferedReader in){
-		if(in.ready()){
-			String inStr = in.readLine();
-			System.out.println("Check for calls: " + inStr);
-			String spl[] = inStr.split(" ");
-			if(spl[0].compareTo("CALL_WAIT")){
-				return true;
+		try {
+			if (in.ready()) {
+				String inStr = in.readLine();
+				System.out.println("Check for calls: " + inStr);
+				String spl[] = inStr.split(" ");
+				if (spl[0].compareTo("CALL_WAIT") == 0) {
+					return true;
+				}
 			}
+		}
+		catch(Exception e){
 		}
 		return false;
 	}
